@@ -56,7 +56,7 @@ export default function ContactSection() {
       <footer className="mt-16 border-t border-gray-100 pt-8">
         <div className="mx-auto max-w-6xl px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-400">
-            &copy; 2025 Cathy Lu. Built with Next.js & Tailwind CSS.
+            &copy; 2026 Cathy Lyu. Built with Next.js & Tailwind CSS.
           </p>
           <div className="flex items-center gap-6">
             <a href="#intro" className="text-sm text-gray-400 hover:text-gray-600 transition-colors">

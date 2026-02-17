@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 export default function HeroSection() {
   const ref = useRef<HTMLElement>(null);
@@ -84,10 +85,15 @@ export default function HeroSection() {
             }`}
           >
             <div className="relative">
-              <div className="w-72 h-80 md:w-80 md:h-96 rounded-2xl bg-gradient-to-br from-blue-100 to-blue-50 overflow-hidden shadow-xl">
-                <div className="w-full h-full flex items-center justify-center text-6xl">
-                  👩‍🏫
-                </div>
+              <div className="w-72 h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden shadow-xl">
+                <Image
+                  src="/吕可欣.jpeg"
+                  alt="Cathy Lyu"
+                  width={320}
+                  height={384}
+                  className="w-full h-full object-cover object-top"
+                  priority
+                />
               </div>
 
               {/* Floating stats card */}

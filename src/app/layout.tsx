@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cathy Lu | AI + English Education",
+  title: "Cathy Lyu | AI + English Education",
   description:
     "吕可欣 - 曼彻斯特大学教育学硕士，剑桥TKT认证教师。用AI重新定义英语教学，KET/PET/FCE专业教师。",
   keywords: ["英语教师", "AI教育", "KET", "PET", "FCE", "剑桥英语", "吕可欣"],

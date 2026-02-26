@@ -3,11 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --accent: #2563eb;
-  --accent-light: #3b82f6;
-  --card-bg: #f8fafc;
-  --card-border: #e2e8f0;
-  --section-bg: #f1f5f9;
+  --accent: #e8668a;
+  --accent-light: #f084a4;
+  --card-bg: #fdf2f4;
+  --card-border: #f5e1e5;
+  --section-bg: #faf5f6;
 }
 
 @theme inline {
@@ -173,8 +173,8 @@ html {
 }
 
 .tag-blue {
-  background: #dbeafe;
-  color: #1d4ed8;
+  background: #fce7f3;
+  color: #be185d;
 }
 
 .tag-orange {

@@ -7,7 +7,7 @@ const textbooks = [
     name: "Unlock",
     level: "A1 - B2",
     description: "剑桥大学出版社综合教材，注重学术英语和批判性思维培养",
-    color: "bg-blue-500",
+    color: "bg-pink-500",
   },
   {
     name: "Think",
@@ -45,8 +45,8 @@ const examLevels = [
     level: "B1",
     description: "剑桥英语中级考试，证明在工作和旅行中使用英语的能力",
     skills: ["阅读", "写作", "听力", "口语"],
-    color: "border-blue-400",
-    bgColor: "bg-blue-50",
+    color: "border-pink-400",
+    bgColor: "bg-pink-50",
   },
   {
     name: "FCE",

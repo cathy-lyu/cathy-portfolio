@@ -6,24 +6,26 @@ export default function ContactSection() {
   return (
     <section id="contact" className="py-20">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-3xl p-10 md:p-16 text-center text-white">
+        <div className="bg-gradient-to-br from-pink-400 to-rose-500 rounded-3xl p-10 md:p-16 text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Let&apos;s build the future of education.
           </h2>
-          <p className="text-blue-100 text-lg mb-8 max-w-xl mx-auto">
+          <p className="text-pink-100 text-lg mb-8 max-w-xl mx-auto">
             如果你对 AI + 教育感兴趣，欢迎交流合作。
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
             <a
               href="mailto:cathylyu11@gmail.com"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-white text-blue-700 rounded-full font-medium hover:bg-blue-50 transition-colors"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-white text-rose-600 rounded-full font-medium hover:bg-pink-50 transition-colors"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               cathylyu11@gmail.com
             </a>
+          </div>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <a
               href="tel:18992581226"
               className="inline-flex items-center gap-2 px-8 py-3 border border-white/30 text-white rounded-full font-medium hover:bg-white/10 transition-colors"
@@ -35,7 +37,7 @@ export default function ContactSection() {
             </a>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-blue-200">
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-pink-200">
             <div className="flex items-center gap-2">
               <span>🎓</span>
               <span>曼彻斯特大学 教育学硕士</span>

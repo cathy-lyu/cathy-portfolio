@@ -4,22 +4,22 @@ import SectionWrapper from "./SectionWrapper";
 
 const tools = [
   {
-    emoji: "🤖",
-    name: "DeepSeek",
-    description: "日常教学备课的核心AI助手，用于生成教案、练习题和教学素材",
-    usage: "备课 & 出题",
-  },
-  {
-    emoji: "🫧",
-    name: "豆包",
-    description: "字节跳动AI助手，辅助课堂互动设计和学生沟通话术优化",
-    usage: "互动设计",
+    emoji: "🧠",
+    name: "Claude",
+    description: "核心AI开发工具，用于教学内容生成、教育应用开发和Prompt Engineering",
+    usage: "应用开发 & 内容生成",
   },
   {
     emoji: "💎",
     name: "Google Gemini",
     description: "多模态AI工具，用于分析学生作业、生成个性化学习反馈报告",
-    usage: "作业分析",
+    usage: "作业分析 & 反馈",
+  },
+  {
+    emoji: "🪁",
+    name: "Kimi",
+    description: "长文本处理AI助手，辅助教材分析、教研资料整理和课程内容优化",
+    usage: "教材分析 & 教研",
   },
   {
     emoji: "📒",
@@ -50,7 +50,7 @@ export default function ToolsSection() {
           我的 AI 工具箱
         </h2>
         <p className="text-gray-600 mt-3 max-w-2xl">
-          善用 AI 工具赋能教学全流程，从备课、授课到课后反馈，提升教学效率。
+          运用多种大语言模型进行教学内容生成、Prompt Engineering 与教育场景应用开发。
         </p>
         <div className="section-divider mt-4" />
       </div>

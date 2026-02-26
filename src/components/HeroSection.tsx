@@ -27,7 +27,7 @@ export default function HeroSection() {
               }`}
             >
               <span className="status-dot" />
-              <span>开放合作 &middot; AI教育 &middot; 教研创新</span>
+              <span>开放合作 &middot; AI教育产品 &middot; 教研创新</span>
             </div>
 
             <h1
@@ -38,11 +38,11 @@ export default function HeroSection() {
               Hi, I&apos;m Cathy.
               <br />
               <span className="text-[var(--accent)]">
-                AI + English Education
+                AI + Education
               </span>
               <br />
               <span className="text-gray-400 text-3xl md:text-4xl">
-                Explorer & Builder.
+                Product &amp; Curriculum Builder.
               </span>
             </h1>
 
@@ -51,8 +51,7 @@ export default function HeroSection() {
                 visible ? "animate-fade-in-up delay-200" : "opacity-0"
               }`}
             >
-              曼彻斯特大学教育学硕士，剑桥TKT认证教师。
-              用AI重新定义英语教学，让每一个学生都能获得个性化的学习体验。
+              国际名校教育学硕士，6年+ K12英语线上+线下教育经验。字节跳动等头部公司的互联网经验，在新东方、环球趣学等北京知名教育机构积累了教学教研、用户运营的复合经验。AI native —— 现正践行AI工具深度应用于英语教学，并独立开发英语教育AI网页。也是 AI 时代和教育的积极思考和践行者。
             </p>
 
             <div
@@ -84,8 +83,8 @@ export default function HeroSection() {
               visible ? "animate-slide-in-right delay-300" : "opacity-0"
             }`}
           >
-            <div className="relative">
-              <div className="w-72 h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden shadow-xl">
+            <div className="relative py-14 px-8">
+              <div className="w-72 h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden shadow-xl mx-auto">
                 <Image
                   src="/吕可欣.jpeg"
                   alt="Cathy Lyu"
@@ -96,27 +95,51 @@ export default function HeroSection() {
                 />
               </div>
 
-              {/* Floating stats card */}
-              <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-lg p-4 border border-gray-100">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-lg">
+              {/* Floating stats cards - positioned outside photo */}
+              <div className="absolute bottom-0 left-0 bg-white rounded-xl shadow-lg p-3 border border-gray-100">
+                <div className="flex items-center gap-2">
+                  <div className="w-9 h-9 rounded-full bg-pink-100 flex items-center justify-center text-base">
                     🎓
                   </div>
                   <div>
                     <p className="text-xs text-gray-500">教学经验</p>
-                    <p className="text-lg font-bold text-gray-900">5+ 年</p>
+                    <p className="text-base font-bold text-gray-900">6+ 年</p>
                   </div>
                 </div>
               </div>
 
-              <div className="absolute -top-4 -right-4 bg-white rounded-xl shadow-lg p-4 border border-gray-100">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-lg">
+              <div className="absolute top-0 right-0 bg-white rounded-xl shadow-lg p-3 border border-gray-100">
+                <div className="flex items-center gap-2">
+                  <div className="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center text-base">
                     📈
                   </div>
                   <div>
                     <p className="text-xs text-gray-500">续费率</p>
-                    <p className="text-lg font-bold text-gray-900">95%+</p>
+                    <p className="text-base font-bold text-gray-900">98%+</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="absolute bottom-0 right-0 bg-white rounded-xl shadow-lg p-3 border border-gray-100">
+                <div className="flex items-center gap-2">
+                  <div className="w-9 h-9 rounded-full bg-purple-100 flex items-center justify-center text-base">
+                    🤖
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500">AI 教育</p>
+                    <p className="text-base font-bold text-gray-900">Builder</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="absolute top-0 left-0 bg-white rounded-xl shadow-lg p-3 border border-gray-100">
+                <div className="flex items-center gap-2">
+                  <div className="w-9 h-9 rounded-full bg-orange-100 flex items-center justify-center text-base">
+                    🚀
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500">0-1 产品</p>
+                    <p className="text-base font-bold text-gray-900">经历</p>
                   </div>
                 </div>
               </div>

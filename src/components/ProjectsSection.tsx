@@ -15,7 +15,7 @@ const projects = [
     techStack: ["Google AI Studio", "Prompt Engineering", "Web开发"],
     status: "Demo",
     link: "",
-    image: "",
+    image: "/projects/Ai Reading.png",
   },
   {
     tag: "AI学习工具",
@@ -41,7 +41,7 @@ const projects = [
     techStack: ["Kimi", "HTML5游戏", "教育场景设计"],
     status: "已上线",
     link: "https://vtpm3a2wpiooe.ok.kimi.link",
-    image: "",
+    image: "/projects/vocab-game.png",
   },
 ];
 
